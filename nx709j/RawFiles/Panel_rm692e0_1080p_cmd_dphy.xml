@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NUBIA_rm692e0_dsi_1080_2400_amoled_cmd_dphy_panel</PanelName>
+<PanelDescription>Nubia DSI Command Mode Panel (1080x2400 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>26</HorizontalFrontPorch>
+ <HorizontalBackPorch>36</HorizontalBackPorch>
+ <HorizontalSyncPulse>2</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2400</VerticalActive>
+ <VerticalFrontPorch>22</VerticalFrontPorch>
+ <VerticalBackPorch>16</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x630000</DSIRefreshRate>
+ <DSIDisableEoTAfterHSXfer>True</DSIDisableEoTAfterHSXfer>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2400</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2400</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0xB</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+15 fe 40
+15 b4 50
+15 fe d4
+15 40 03
+15 fe fd
+15 80 f6
+15 fe a0
+15 06 36
+15 fe d0
+15 c4 10
+15 fe d2
+15 82 01
+15 fe 00
+15 fa 01
+15 fe f2
+15 00 9e
+15 05 54
+15 11 04
+15 13 5a
+15 14 b3
+15 15 df
+15 36 00
+15 37 00
+15 1a 02
+15 1b d0
+15 fe b0
+15 91 70
+15 27 7f
+15 FE 88
+15 19 81
+15 FE 76
+15 01 C0
+15 2F 02
+15 30 00
+15 31 01
+15 32 70
+15 33 76
+15 34 13
+15 70 FE
+15 71 40
+15 72 BD
+15 73 05
+15 74 FF
+15 75 01
+15 76 03
+15 77 FE
+15 78 36
+15 79 05
+15 7A 03
+15 7B 06
+15 7C 43
+15 7D 07
+15 7E 00
+15 7F 09
+15 80 02
+15 81 FE
+15 82 00
+15 FE 76
+15 02 3F
+15 35 02
+15 36 00
+15 37 05
+15 38 83
+15 39 76
+15 3A 13
+15 83 FE
+15 84 40
+15 85 BD
+15 86 00
+15 87 FF
+15 88 01
+15 89 03
+15 8A FE
+15 8B 36
+15 8C 05
+15 8D 09
+15 8E 06
+15 8F A3
+15 90 07
+15 91 03
+15 92 09
+15 93 25
+15 94 FE
+15 95 00
+15 FE 76
+15 02 3F
+15 3B 02
+15 3D 00
+15 3F 06
+15 40 96
+15 41 76
+15 42 13
+15 96 FE
+15 97 40
+15 98 BD
+15 99 06
+15 9A FF
+15 9B 01
+15 9C 03
+15 9D FE
+15 9E 36
+15 9F 05
+15 A0 00
+15 A2 06
+15 A3 13
+15 A4 07
+15 A5 00
+15 A6 09
+15 A8 02
+15 A9 FE
+15 AA 00
+15 FE 36
+15 05 03
+15 06 43
+15 07 00
+15 09 02
+15 fe 40
+15 29 45
+15 2a 45
+15 fe 34
+15 49 55
+15 FE D4
+15 40 03
+15 FE FD
+15 80 06
+15 83 00
+15 FE A0
+15 06 32
+15 FE B0
+15 16 01
+15 17 00
+15 FE D0
+15 7E 80
+15 FE D2
+15 23 56
+15 FE A1
+15 B3 7F
+15 E3 03
+15 FE FD
+15 EE 00
+15 EF 00
+15 FE A1
+15 C3 C3
+15 C4 9C
+15 C5 1E
+15 C6 23
+15 FE D0
+15 11 75
+15 92 03
+15 FE 40
+15 24 26
+15 B6 03
+15 FE 26
+15 12 FE
+15 4C FE
+15 fe 00
+15 c2 08
+15 35 00
+39 51 07 ff
+05 11 00
+ff 78
+15 02 01
+ff 32
+05 29 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 14
+ 05 10
+ ff 78
+</DSITermSequence>
+<TLMMGPIODefaultHigh>0x1A</TLMMGPIODefaultHigh>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault>30</BacklightDefault>
+<DisplayResetInfo>0 10000 1000 10000 0</DisplayResetInfo>
+</Group>
+
